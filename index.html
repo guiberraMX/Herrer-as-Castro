@@ -23,10 +23,28 @@
 
     <!-- Custom styles for this template -->
     <link href="themes/assets/css/carousel.css" rel="stylesheet">
+
+    <!-- Daze Media Studio stuff:::::: -->
+    <link href="themes/daze/social-slide.css" rel="stylesheet">
+    <link href="themes/daze/landing-page.css" rel="stylesheet">
+
+
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
+
+
+<script>
+$(document).ready(function() {
+//Set the carousel options
+$('#quote-carousel').carousel({
+  pause: true,
+  interval: 4000,
+});
+});
+
+</script>
 
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -265,74 +283,136 @@
 
 
 
+<div class="container">
 
-<div class="col-md-7">
-          <h2 class="featurette-heading">Fish and Chips <span class="text-muted">It's very very testy</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img src="themes/assets/images/fish-and-chips.png" alt="Fish and Chips">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <br>
+                    <br>
+                    <h2 class="section-heading">Desde 1985 brindando seguridad y confianza a nuestros clientes
+
+                        <br></h2>
+                    <p class="lead">Contando con dos talleres en el Distrito Federal y uno mas en la ciudad de Puebla; siempre asegurando la mejor calidad y servicio a nuestros clientes, comprometidos en todo momento con la completa satisfacción de nuestros clientes, guiandonos siempre con los valores que nos reconocen, integridad, calidad, responsabilidad, liderazgo, colaboración y pasión.
+                       <a target="_blank" ></a> </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="themes/daze/teem.png" alt="">
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
         </div>
 
 
 
-   <div class="container marketing">
-   <div id="myCarousel4" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <div class="carousel-inner">
-      <div class="item active">
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Fish and Chips <span class="text-muted">It's very very testy</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class='col-md-offset-2 col-md-8 text-center'>
+      <br>
+      <br>
+      <br>
+    <h2>Suíguenos para obtener grandes ofertas</h2>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-offset-2 col-md-8'>
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#quote-carousel" data-slide-to="1"></li>
+          <li data-target="#quote-carousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner">
+
+          <!-- Quote 1 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="http://wp-desk.com/lovinflat/images/persons/person_1.png" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                  <small>Someone famous</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="http://wp-desk.com/lovinflat/images/persons/person_2.png" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
+                  <small>Someone famous</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 3 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="http://wp-desk.com/lovinflat/images/persons/person_3.png" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
+                  <small>Someone famous</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
         </div>
-        <div class="col-md-5">
-          <img src="themes/assets/images/fish-and-chips.png" alt="Fish and Chips">
-        </div>
+
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
       </div>
-      </div>
+    </div>
+  </div>
+</div>
 
 
-	<div class="item">
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img src="themes/assets/images/burger.png" alt="Generic placeholder image">
+
+<div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="itemsTitle" >Obten tu presupuesto en menos de 24 horas</h3>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
         </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, very nice Burger. <span class="text-muted">Delicious.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-      </div>
-      </div>
 
 
-	<div class="item">
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Try yourself <span class="text-muted">Testy</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-
-          <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-
-        </div>
-        <div class="col-md-5">
-		  <img class="img-circle" src="themes/assets/images/drinks.png" alt="Generic placeholder image">
-        </div>
-      </div>
-      </div>
-	   </div>
-    </div><!-- /.carousel -->
-    </div><!-- /.container -->
-      <!-- /END THE FEATURETTES -->
 
 
-      <!-- FOOTER -->
-      <footer>
-		<div class="container">
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-		</div>
-      </footer>
+
+
+
 
 
 
