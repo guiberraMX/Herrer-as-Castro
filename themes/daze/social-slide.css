@@ -36,6 +36,7 @@
 #quote-carousel .carousel-indicators li
 {
   background: #c0c0c0;
+
 }
 #quote-carousel .carousel-indicators .active
 {
@@ -58,7 +59,7 @@
 }
 
 .item blockquote p:before {
-    content: "\f10d";
+  
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
